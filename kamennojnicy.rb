@@ -1,6 +1,5 @@
-#encoding: cp866
 loop do
-puts "‚лЎҐаЁ (K)amen, (N)ojnicy, (B)umaga, (E)xit "
+puts "Выбери (K)amen, (N)ojnicy, (B)umaga, (E)xit "
 choose = gets.strip.capitalize
 if choose == "K"
 user_choise = :kamen
